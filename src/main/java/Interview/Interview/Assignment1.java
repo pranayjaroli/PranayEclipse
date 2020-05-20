@@ -23,7 +23,8 @@ public class Assignment1 extends TestUtil
 	@BeforeMethod
     public void setup1()
     {
-       TestUtil.setup();	
+       //this code is made by pranay
+	   TestUtil.setup();	
        driver.get("http://annauniv.edu/");
     }  
     
