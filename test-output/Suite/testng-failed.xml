@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="3" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="Interview.Interview.Assignment3">
+        <methods>
+          <include name="login"/>
+          <include name="setup1"/>
+        </methods>
+      </class> <!-- Interview.Interview.Assignment3 -->
+      <class name="Interview.Interview.Assignment1">
+        <methods>
+          <include name="teardown"/>
+          <include name="login"/>
+          <include name="setup1"/>
+        </methods>
+      </class> <!-- Interview.Interview.Assignment1 -->
+      <class name="Interview.Interview.Assignment2">
+        <methods>
+          <include name="initialization"/>
+          <include name="task"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Interview.Interview.Assignment2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
